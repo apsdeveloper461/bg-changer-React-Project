@@ -1,0 +1,51 @@
+.body {
+
+height: 100vh;
+width: 100vw;
+
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+   padding-top: 20px;
+   text-decoration: dashed underline;
+  line-height: 1.1;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  align-items: center;
+  background-color: rgba(2, 1, 1, 0.466);
+  position:absolute;
+  left: 20px;
+  top: 35%;
+  border-radius: 1em;
+  padding: 10px;
+}
+.btn{
+  font-weight: 700;
+  color: rgb(5, 5, 5);
+  margin: 5px;
+  border-radius: 4em;
+}
+
+button {
+  
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
